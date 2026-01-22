@@ -8,7 +8,7 @@ This portfolio highlights my real-world full-stack projects, technical strengths
 
 ## 🚀 Live Portfolio
 
-(Add Netlify link here after deployment)
+https://rishabh-portfolio-dev.netlify.app/
 
 ---
 
