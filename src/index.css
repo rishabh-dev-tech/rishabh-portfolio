@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+/* micro-interactions */
+
+button, a {
+  transition: all 0.25s ease;
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px) scale(1.01);
+}
+
+* {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ================= THEME SYSTEM ================= */
+
+.theme-dark {
+  background: radial-gradient(circle at top, #020617, #000000);
+  color: #ffffff;
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Premium professional light theme */
+.theme-light {
+  background: linear-gradient(to bottom, #e6e8ec, #d7dbe1);
+  color: #1e293b;
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Text tuning */
+.theme-light .text-gray-400 {
+  color: #475569;
+}
+
+.theme-light .text-gray-300 {
+  color: #334155;
+}
+
+/* Cards */
+.theme-light .bg-black\/40 {
+  background-color: #f1f3f6;
+}
+
+/* Borders */
+.theme-light .border-white\/10 {
+  border-color: #cbd5e1;
+}
+
+/* Premium soft shadows */
+.theme-light .bg-black\/40 {
+  box-shadow:
+    0 10px 25px rgba(15, 23, 42, 0.08),
+    0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+/* Accent hover tuning */
+.theme-light a:hover {
+  color: #0e7490;
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 18s linear infinite;
+}

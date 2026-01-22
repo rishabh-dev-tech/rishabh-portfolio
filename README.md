@@ -8,7 +8,7 @@ This portfolio highlights my real-world full-stack projects, technical strengths
 
 ## 🚀 Live Portfolio
 
-
+(Add Netlify link here after deployment)
 
 ---
 
@@ -26,7 +26,7 @@ I enjoy solving real-world problems, writing clean maintainable code, and contin
 - Framer Motion  
 - JavaScript (ES6+)  
 - Vite  
-- Node.js (projects showcase)  
+- Node.js  
 
 ---
 
